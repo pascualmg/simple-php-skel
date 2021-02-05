@@ -1,4 +1,5 @@
 {
+    "version": "1.0.0",
     "name": "pascualmg/simple-php-skel",
     "description": "simple dockerized skel with last version of php and phpunit",
     "authors": [
