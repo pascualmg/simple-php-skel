@@ -6,8 +6,7 @@ Para tener facilmente disponible un entorno de desarrollo con php .
 composer --stability=dev  create-project pascualmg/simple-php-skel app 
 cd app 
 make build
-make test, etc...  
-
+make composer_install
 ```
 
 
