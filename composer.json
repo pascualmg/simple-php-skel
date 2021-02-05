@@ -1,18 +1,21 @@
 {
-    "version": "1.0.0",
-    "name": "pascualmg/simple-php-skel",
-    "description": "simple dockerized skel with last version of php and phpunit",
-    "authors": [
-        {
-            "name": "pascual",
-            "email": "pascual.munoz@pccomponentes.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {"pascualmg\\skel\\": "src/"}
-    },
-    "require": {},
-    "require-dev": {
-        "phpunit/phpunit": ">=9.5.2"
+  "license": "LGPL-3.0-or-later",
+  "version": "1.0.0",
+  "name": "pascualmg/simple-php-skel",
+  "description": "simple dockerized skel with last version of php and phpunit",
+  "authors": [
+    {
+      "name": "pascual",
+      "email": "pascual.munoz@pccomponentes.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "pascualmg\\skel\\": "src/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": ">=9.5.2"
+  }
 }
