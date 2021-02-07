@@ -1,6 +1,6 @@
 <?php
 
-namespace Foo;
+namespace pascualmg\skel\Tests\Foo;
 
 use pascualmg\skel\Foo\HellowWorld;
 use PHPUnit\Framework\TestCase;
@@ -11,7 +11,6 @@ class HellowWorldTest extends TestCase
     {
         $actual  = new HellowWorld();
         self::assertEquals('Hellow World', $actual());
-
     }
 
 }
