@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   php:
-    container_name: php-dddfinitions
+    container_name: php-thenameofyourproject
     build:
       context: .
       dockerfile: docker/php/Dockerfile
