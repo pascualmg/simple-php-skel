@@ -20,6 +20,8 @@ down: ## alias stop
 		make stop
 bash:
 		docker-compose run --rm -u ${UID}:${GID} ${DOCKER_PHP_SERVICE} sh
+exec:
+		docker-compose run --rm -u ${UID}:${GID} ${DOCKER_PHP_SERVICE} sh -c 'php /var/app/src/index.php'
 root:
 		docker-compose run --rm -u 0:0 ${DOCKER_PHP_SERVICE} sh
 logs:
