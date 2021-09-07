@@ -6,7 +6,7 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 
 $greeter = static fn() => (new HellowWorld())();
 
-$greeter();
+echo $greeter();
 
 
 
