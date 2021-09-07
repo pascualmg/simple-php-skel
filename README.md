@@ -15,6 +15,7 @@ make composer_install
 5. make composer-install 
 6. make test 
 
+o directamente ejecuta el script init.sh :)
 
 
 ... 4leviandrew ...
