@@ -9,6 +9,11 @@ make build
 make composer_install
 ```
 
+sin composer instalado , directamente con docker
+```shell
+docker run --rm --interactive --tty --user $UID:$GID   --volume $PWD:/app composer create-project  pascualmg/simple-php-skel yourproject
+```
+
 2. Edita composer.json and cambia los nombres del psr4  
 3. Edita docker-compose y cambia el nombre del container 
 4. make up 
